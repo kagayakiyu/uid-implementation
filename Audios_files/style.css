@@ -1,0 +1,240 @@
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* header */
+header {
+  width: 100vw;
+  height: 88px;
+  box-sizing: border-box;
+  padding: 24px 163px 24px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  height: 40px;
+}
+header .search {
+  width: 923px;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+header .search .searchInput {
+  width: 863px;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .search .searchInput .search-normal {
+  width: 20px;
+  height: 20px;
+}
+header .search .searchInput span {
+  color: #838d8f;
+}
+header .shopcar {
+  width: 36px;
+  height: 27px;
+}
+.header2 {
+  width: 100vw;
+  height: 88px;
+  box-sizing: border-box;
+  padding: 24px 163px 24px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
+  margin-bottom: 20px;
+}
+.header2 .logo {
+  height: 40px;
+}
+.header2 .search {
+  width: 923px;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.header2 .search .searchInput {
+  width: 863px;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header2 .search .searchInput .search-normal {
+  width: 20px;
+  height: 20px;
+}
+.header2 .search .searchInput span {
+  color: #838d8f;
+}
+.header2 .shopcar {
+  width: 36px;
+  height: 27px;
+}
+/* product */
+.searchContainer {
+  width: 1200px;
+  margin: 60px auto 0;
+}
+.searchContainer .bread {
+  color: #065cac;
+  margin-bottom: 22px;
+}
+.searchContainer .searchTitle {
+  margin-bottom: 30px;
+}
+.searchContainer .searchTitle .title {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 5px;
+}
+.searchContainer .searchTitle p {
+  font-size: 16px;
+  color: #818b9c;
+  font-weight: bold;
+}
+.np-box2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 29px;
+  margin-bottom: 24px;
+}
+.np-box2 .np-img {
+  width: 278px;
+  height: 278px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f3f5;
+  border: 1px solid #d1d1d3;
+  border-radius: 15px;
+  margin-bottom: 11px;
+}
+.np-box2 .np-msg {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.np-box2 .np-price {
+  display: flex;
+  justify-content: space-between;
+}
+.np-box2 .np-price p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.np-box2 .np-price div {
+  border-radius: 8px;
+  width: 87px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #065cac;
+  font-size: 12px;
+  font-weight: bold;
+  color: #065cac;
+}
+.np-box2 .np-price .np-discount {
+  color: #a1a0a0;
+}
+.np-box2 .np-price .np-discount .np-s1 {
+  color: #fc0b0b;
+  font-size: 20px;
+  text-decoration: none;
+}
+.np-box2 .np-price .np-discount .np-s2 {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+/* pagination */
+.pageBread {
+  width: 200px;
+  margin: 50px auto 100px;
+}
+.pageBread .pageBox {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.pageBread .pageBox .number {
+  width: 41px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #e8e8e8;
+}
+.pageBread .pageBox .n2 {
+  border: none;
+}
+/* footer */
+footer {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #f5f6f8;
+}
+footer .footerInfo {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 0 73px;
+  box-sizing: border-box;
+}
+footer .footerInfo .left-1 {
+  width: 385px;
+}
+footer .footerInfo .left-1 img {
+  margin-bottom: 13px;
+}
+footer .footerInfo .left-1 p {
+  font-size: 16px;
+}
+footer .footerInfo .right-1 {
+  display: flex;
+  gap: 50px;
+}
+footer .footerInfo .right-1 .line-1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+footer .footerInfo .right-1 p {
+  line-height: 30px;
+}
+.footer-copy {
+  background-color: #f1f1f1;
+  width: 100vw;
+}
+.footer-copy .copy {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copy .copy p {
+  font-size: 16px;
+  color: #0b0f0e;
+}
+.footer-copy .copy .copy-s1 {
+  margin-right: 32px;
+}
+

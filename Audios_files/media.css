@@ -1,0 +1,123 @@
+/* header style */
+.header2 {
+  width: 100vw;
+  height: 88px;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* shadow effect */
+  margin-bottom: 20px;
+}
+.header2 .logo {
+  height: 40px;
+}
+.header2 .search {
+  width: 50%;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.header2 .search .searchInput {
+  width: 90%;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header2 .search .searchInput .search-normal {
+  width: 20px;
+  height: 20px;
+}
+.header2 .search .searchInput span {
+  color: #838d8f;
+}
+.header2 .shopcar {
+  width: 36px;
+  height: 27px;
+}
+
+/* product box containner style*/
+.searchContainer {
+  width: 100vw;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.searchContainer .np-box2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.searchContainer .np-box2 .np-item {
+  width: 170px;
+}
+.searchContainer .np-box2 .np-item .np-img {
+  width: 150px;
+  height: 150px;
+}
+.searchContainer .np-box2 .np-item .np-img img {
+  width: 150px;
+  height: 150px;
+}
+.searchContainer .np-box2 .np-item .np-msg {
+  font-size: 14px;
+}
+.searchContainer .np-box2 .np-item .np-price {
+  display: flex;
+  align-items: center;
+}
+.searchContainer .np-box2 .np-item .np-price p {
+  font-size: 14px;
+}
+.searchContainer .np-box2 .np-item .np-price .np-discount {
+  display: flex;
+}
+.searchContainer .np-box2 .np-item .np-price .np-discount .np-s1, .searchContainer .np-box2 .np-item .np-price .np-discount .np-s2 {
+  font-size: 12px;
+}
+
+/* footerstyle */
+footer .footerInfo {
+  width: 912px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 20px 73px;
+  box-sizing: border-box;
+}
+footer .footerInfo .left-1 {
+  width: 285px;
+}
+footer .footerInfo .left-1 img {
+  margin-bottom: 13px;
+}
+footer .footerInfo .left-1 p {
+  font-size: 14px;
+}
+footer .footerInfo .right-1 {
+  display: flex;
+  gap: 10px;
+}
+footer .footerInfo .right-1 .line-1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+footer .footerInfo .right-1 p {
+  line-height: 30px;
+  font-size: 14px;
+}
+.footer-copy .copy {
+  width: 100vw;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.footer-copy .copy .copy-left {
+  font-size: 12px;
+}
+.footer-copy .copy .copy-r {
+  font-size: 12px;
+}
