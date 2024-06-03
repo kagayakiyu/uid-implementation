@@ -1,254 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>    <title>Homepage</title>
-    <link href="style css.css"stylesheet>
-    <link href="style css.css"stylesheet>
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Homepage</title>
+    <link href="Audios_files/style.css" rel="stylesheet">
+    <link href="Audios_files/media.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
     <header>
         <!-- Logo -->
-        <img src="./images/logo.png" alt="logo" />
+        <img alt="logo" class="logo" onclick="window.location.href = &#39;./homepage.html&#39;" src="./images/logo.png"  />
         <!-- Search bar -->
-        <div id="searchFor">
-            <div>
+        <div class="search" id="searchFor">
+            <div class="searchInput" onclick="window.location.href = &#39;./searchfor.html&#39;">
                 <span>Search product</span>
-                <img src="./images/search-normal.png" alt="search-normal" />
+                <img alt="search-normal" class="search-normal" src="./images/search-normal.png"  />
             </div>
         </div>
         <!-- Shopping cart link -->
         <a href="./shoppingcart.html">
-            <img src="./images/shopcar.png" alt="shopcar" id="shopcar" />
+            <img  alt="shopcar" class="shopcar" onclick="window.location.href=&#39;./ShoppingCart.html&#39;" id="shopcar" src="./images/shopcar.png" />
         </a>
     </header>
 
     <!-- Banner section -->
-    <div>
-        <div>
-            <p>Shop Computer</p>
-            <p>Accessories Online</p>
-            <p>With Us.</p>
-            <div>
-                <div>
-                    <!-- sliding to product category button -->
-                    <a href="#productcategory">See Our Products</a>
+    <div class="banner">
+        <div class="big_box">
+            <a class="left_but" href="javascript:" style="display: none;">
+                <img src="./images/TeenyiconsLeftOutline.png" alt="">
+	  </a>
+      <a class="right_but" href="javascript:" style="display: none;">
+		<img src="./images/TeenyiconsRightOutline.png" alt="">
+	  </a>
+      <ul class="slide_img" style="left: -1442px;">
+		<li>
+			<img src="./images/948969d436451c4cce3970f906881af.png">
+
+		</li>
+                                <li>
+			<img src="./images/423816b4bdcf888cb56fab18075873d.png">
+                            </li>
+	 </ul>
+	  <ol class="promo_nav" style="width: 28px;">
+        <li index="0" class=""></li></ol>
+	</div>
+    
+    <div class="bannerText"></div>
+            <p  class="bannerTitle">Shop Computer</p>
+            <p class="bannerTitle">Accessories Online</p>
+            <p class="bannerTitle">With Us.</p>
+            <div class="bannerButton">
+                <div class="button1">
+                    <!-- sliding to  button -->
+                    <a href="#NewProductinStore" style="color: white;">See Our Products</a>
                 </div>
-                <div>Order History</div>
+                <div class="button2">Order History</div>
             </div>
         </div>
     </div>
-    <div>
-       
-
+    <div class="pbannerText">
+        <p>
+            Shop Computer Accessories Online With Us.
+          </p>
+          <div class="bannerButton">
+            <div class="button1">
+              <a href="Index.html" style="color: white;">See Our Products</a>
+            </div>
+            <div class="button2">
+              Order History
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
     <!-- Main content section -->
-    <section>
+    <div class="searchContainer">
         <!-- Product category section -->
-        <div id="Productcategory">
-            <p>Product Category</p>
-            <div>
-                <a href="./Audios.html">
-                    <div>
+        <div class="category" id="NewProductinStore">
+            <p class="category-header">Product Category</p>
+            <div class="categoryBox">
+                    <div class="categoryItem" id="audio" onclick="window.location.href = &#39;./Audios.html&#39;">
                         <div>
                             <img src="./images/earphone.png" alt="Audio" />
-                        </div>
+                        <div class="cate-img">
+                           
+		  </div>
                         <p>Audio</p>
                     </div>
-                </a>
-                <a href="./Charger.html">
-                    <div>
-                        <div>
-                            <img src="./images/charger.png" alt="Chargers" />
+                </div>
+           
+                    <div class="categoryItem" id="Chargers" onclick="window.location.href = &#39;./Charger.html&#39;">
+                        <div class="cate-img">
+                            <img alt="" src="./images/charger.png" />
                         </div>
                         <p>Chargers</p>
                     </div>
-                </a>
-                <a href="./USB.html">
-                    <div>
-                        <div>
-                            <img src="./images/usb.png" alt="USB" />
+                    <div class="categoryItem" id="USB" onclick="window.location.href = &#39;./USB.html&#39;">
+                        <div class="cate-img">
+                            <img alt="" src="./images/usb.png" />
                         </div>
                         <p>USB</p>
                     </div>
-                </a>
-                <a href="./PhoneCarGear.html">
-                    <div>
-                        <div>
+                    <div class="categoryItem" id="PhoneCarGears" onclick="window.location.href = &#39;./PhoneCarGear.html&#39;">
+                        <div class="cate-img">
                             <img src="./images/car phone gear.png" alt="Phone Car Gears" />
                         </div>
                         <p>Phone Car Gears</p>
                     </div>
-                </a>
+               
             </div>
         </div>
 
         <!-- New products section -->
-        <div>
-            <div>
+        <div class="newProduct">
+            <div class="np-header">
                 <p>New Product in Store</p>
-                <div>
-                    <a href="./searchfor.html">More Products</a>
+                <div class="np-button" onclick="window.location.href = &#39;./NewProduct.html&#39;">
+                    More Products
                 </div>
             </div>
-            <div>
-                <a href="./ProductDetail.html">
-                    <div>
-                        <div>
+            <div class="np-box">
+                    <div class="np-item" id="erji">
+                        <div class="np-img" onclick="window.location.href = &#39;./ProductDetail.html&#39;">
                             <img src="./images/wireless earphone.png" alt="" />
                         </div>
                         <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-                        <div>
+                        <div class="np-price">
                             <p>$ 49.99</p>
-                            <div>Add to Cart</div>
+                            <a>
+                            <div class="but-nb" onclick="window.location.href = &#39;./ShoppingCart.html&#39;">Add to Cart</div>
+                        </a>
                         </div>
                     </div>
-                </a>
-                <div>
-                    <div>
-                        <img src="./images/cable1.png" alt="" />
+                
+                <div class="np-item">
+                    <div class="np-img">
+                        <img alt="" src="./images/cable1.png" />
                     </div>
-                    <p>ORICO 4 Port Car Charger - Black (MPU-4S)</p>
-                    <div>
-                        <p>
-                            <span>$ 29.99</span>
-                            <span> 59.99 </span>
+                    <p class="np-msg">ORICO 4 Port Car Charger - Black (MPU-4S)</p>
+                    <div class="np-price">
+                        <p class="np-discount">
+                            <span class="np-s1" id="small">$ 29.99</span>
+                            <span class="np-s2"> 59.99 </span>
                         </p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb" onclick="window.location.href = &#39;./ShoppingCart1.html&#39;">Add to Cart</div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="./images/earphone2.png" alt="" />
+                <div class="np-item pnone">
+                    <div class="np-img">
+                        <img alt="" src="./images/earphone2.png" />
                     </div>
-                    <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-                    <div>
+                    <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                    <div class="np-price">
                         <p>$ 49.99</p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb">Add to Cart</div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="np-item pnone">
+                    <div class="np-img">
                         <img src="./images/earphone3.png" alt="" />
                     </div>
-                    <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-                    <div>
+                    <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                    <div class="np-price">
                         <p>$ 49.99</p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb">Add to Cart</div>
                     </div>
                 </div>
             </div>
-            <div>
-                <a href="./searchfor.html">More Products</a>
+            <div class="noneMore">
+                <a href="./homepage.html">More Products</a>
             </div>
         </div>
 
         <!-- Today's deals section -->
-        <div>
-            <div>
+        <div class="newProduct">
+            <div class="np-header">
                 <p>Today's deal</p>
-                <div><a href="./Todaysdeal.html">More Deals</a></div>
+                <div class="np-button" id="Deals" onclick="window.location.href = &#39;./Todaysdeal.html&#39;">More Deals</div>
             </div>
-            <div>
-                <div>
-                    <div>
+            <div class="np-box">
+                <div class="np-item">
+                    <div class="np-img">
                         <img src="./images/cable1.png" alt="" />
                     </div>
-                    <p>ORICO 4 Port Car Charger - Black (MPU-4S)</p>
-                    <div>
-                        <p>
-                            <span>$ 29.99</span>
-                            <span> 59.99 </span>
+                    <p class="np-msg">ORICO 4 Port Car Charger - Black (MPU-4S)</p>
+                    <div class="np-price">
+                        <p class="np-discount">
+                            <span class="np-s1">$ 29.99</span>
+                            <span class="np-s2"> 59.99 </span>
                         </p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb">Add to Cart</div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="./images/uscable1.png" alt="" />
+                <div class="np-item">
+                    <div class="np-img">
+                        <img src="./images/usb2.png" alt="" />
                     </div>
-                    <p>Universal Micro USB Multi media Desktop</p>
-                    <div>
-                        <p>
-                            <span>$ 29.99</span>
-                            <span> 59.99 </span>
+                    <p class="np-msg">Universal Micro USB Multi media Desktop</p>
+                    <div class="np-price">
+                        <p class="np-discount">
+                            <span class="np-s1">$ 29.99</span>
+                            <span class="np-s2"> 59.99 </span>
                         </p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb">Add to Cart</div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="np-item pnone">
+                    <div class="np-img">
                         <img src="./images/cable1.png" alt="" />
                     </div>
-                    <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-                    <div>
-                        <p>
-                            <span>$ 29.99</span>
-                            <span> 59.99 </span>
+                    <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                    <div class="np-price">
+                        <p class="np-discount">
+                            <span class="np-s1">$ 29.99</span>
+                            <span class="np-s2"> 59.99 </span>
                         </p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb">Add to Cart</div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="np-item pnone">
+                    <div class="np-img">
                         <img src="./images/cable1.png" alt="" />
                     </div>
-                    <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-                    <div>
-                        <p>
-                            <span>$ 29.99</span>
-                            <span> 59.99 </span>
+                    <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                    <div class="np-price">
+                        <p class="np-discount">
+                            <span class="np-s1">$ 29.99</span>
+                            <span class="np-s2"> 59.99 </span>
                         </p>
-                        <div>Add to Cart</div>
+                        <div class="but-nb">Add to Cart</div>
                     </div>
                 </div>
             </div>
-            <div>
-                <a href="#">More Deals</a>
+     
+            <div class="noneMore">
+                <a href="homepage.html">More Deals</a>
             </div>
         </div>
-    </section>
-    
+    </div>
+
     <!-- Footer section -->
     <footer>
-        <div>
-            <div>
+        <div class="footerInfo">
+            <div class="left-1">
                 <img src="./images/logo.png" alt="" />
                 <p>TimeWeb computer is a computer store located in south Melbourne, selling computer accessories. Hope you enjoy experience.</p>
             </div>
-            <div>
-                <div>
-                    <p>Contact us</p>
+            <div class="right-1">
+                <div class="right-1-item">
+                    <p class="line-1">Contact us</p>
                     <p>Phone Num: 04537 378 344</p>
                     <p>Email: duiehdjkn@gmail.com</p>
                     <p>(777) 888888888</p>
                 </div>
-                <div>
-                    <p>Location</p>
+                <div class="right-1-item">
+                    <p class="line-1">Location</p>
                     <p>1 , Coventry Place, west South</p>
                     <p>Melbourne Victoria 3205</p>
                 </div>
             </div>
         </div>
     </footer>
-    
     <!-- Copyright and terms -->
-    <div>
-        <div>
-            <p>COPYRIGHT © LENNY CO., LTD. ALL RIGHTS RESERVED.</p>
-            <div>
-                <span> Terms of use </span>
+    <div class="footer-copy">
+        <div class="copy">
+            <p class="copy-left">COPYRIGHT © LENNY CO., LTD. ALL RIGHTS RESERVED.</p>
+            <div class="copy-r">
+                <span class="copy-s1"> Terms of use </span>
                 <span> Privacy Policy </span>
             </div>
         </div>
     </div>
+    <script src="/index.js.下载"></script>
 </body>
 </html>
