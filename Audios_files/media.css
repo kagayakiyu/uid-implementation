@@ -183,6 +183,25 @@ footer .footerInfo {
 footer .footerInfo .left-1 {
   width: 385px;
 }
+.header2 .search .searchInput {
+  width: 863px;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cartBox .rightBox .rPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cartBox .rightBox .totalPrice2 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
 /* footerstyle */
 footer .footerInfo {
   width: 912px;

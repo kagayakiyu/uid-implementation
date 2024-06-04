@@ -259,16 +259,24 @@ header .shopcar {
   text-decoration: line-through;
   font-size: 14px;
 }
-footer .footerInfo {
-  width: 1200px;
+.header2 .search .searchInput {
+  width: 863px;
+  height: 20px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 84px 0 73px;
-  box-sizing: border-box;
 }
-footer .footerInfo .left-1 {
-  width: 385px;
+.cartBox .rightBox .rPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cartBox .rightBox .totalPrice2 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 /* pagination */
 .pageBread {
