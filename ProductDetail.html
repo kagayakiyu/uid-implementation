@@ -2,27 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New Product</title>
+    <link href="./cs/style.css" rel="stylesheet">
+    <link href="./cs/media.css" rel="stylesheet">
   </head>
   <body>
     <header class="header2">
-      <img src="./images/logo.png" alt="logo" onclick="window.location.href = './index.html'" />
+      <img src="./images/logo.png" alt="logo" onclick="window.location.href = './homepage.html'" />
       <div class="search">
         <div class="searchInput"  onclick="window.location.href = './searchfor.html'">
           <span>Search product</span>
-          <img
-            src="./images/search-normal.png"
-            alt="search-normal"
-            class="search-normal"
-          />
+          <img src="./images/search-normal.png" alt="search-normal" class="search-normal"/>
         </div>
       </div>
       <img src="./images/shopcar.png" alt="shopcar" class="shopcar" onclick="window.location.href='./ShoppingCart.html'" />
     </header>
     <div class="searchContainer">
-      <div class="bread" onclick="window.location.href = './index.html'">
+      <div class="bread" onclick="window.location.href = './homepage.html'">
         Home >
       </div>
       <div class="shopContent">
@@ -77,8 +77,8 @@
             </p>
           </div>
           <div class="shopTwoImg">
-            <img src="./images/airpods%20product%20box.png" alt="" />
             <img src="./images/airpods product detail 2.png" alt="" />
+            <img src="./images/airpods product box.png" alt="" />
           </div>
         </div>
       </div>
@@ -176,5 +176,19 @@
         </div>
       </div>
     </div>
+    <script>
+      var pbuy = document.querySelector(".pbuy");
+      var padd = document.querySelector(".padd");
+      pbuy.addEventListener("click", () => {
+        locationHref("Shopping");
+      });
+      padd.addEventListener("click", () => {
+        locationHref("ShoppingCart");
+      });
+      function locationHref(nav) {
+        location.href = `${nav}.html`;
+      }
+    </script>
+  
   </body>
 </html>
