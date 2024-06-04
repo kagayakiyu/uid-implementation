@@ -121,6 +121,68 @@
 }
 .newProduct .np-box .pnone {
 }
+.header2 {
+  width: 100vw;
+  height: 88px;
+  box-sizing: border-box;
+  padding: 24px 163px 24px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
+  margin-bottom: 20px;
+}
+.header2 .search {
+  width: 923px;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.header2 .search .searchInput {
+  width: 863px;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.shopContent .shopTop {
+  display: flex;
+  gap: 42px;
+  margin-bottom: 40px;
+}
+.newProduct .np-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+.np-box2 .np-img {
+  width: 278px;
+  height: 278px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f3f5;
+  border: 1px solid #d1d1d3;
+  border-radius: 15px;
+  margin-bottom: 11px;
+}
+.newProduct .np-box .np-price .np-discount .np-s2 {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+footer .footerInfo {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 0 73px;
+  box-sizing: border-box;
+}
+footer .footerInfo .left-1 {
+  width: 385px;
+}
 /* footerstyle */
 footer .footerInfo {
   width: 912px;
