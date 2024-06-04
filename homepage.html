@@ -5,8 +5,7 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Homepage</title>
-    <link href="Audios_files/style.css" rel="stylesheet">
-    <link href="Audios_files/media.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Audios_files/style.css">
 </head>
 <body>
     <!-- Header -->
@@ -47,50 +46,67 @@
 	  <ol class="promo_nav" style="width: 28px;">
         <li index="0" class=""></li></ol>
 	</div>
+    <div class="bannerText">
+        <p class="bannerTitle">
+          Shop Computer
+        </p>
+        <p class="bannerTitle">
+          Accessories Online
+        </p>
+        <p class="bannerTitle">
+          With Us.
+        </p>
+        <div class="bannerButton">
+          <div class="button1">
+            <a href="#homepage.html" style="color: white;">See Our Products</a>
+            <!--button-->
+          </div>
+          <div class="button2">
+            Order History
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pbannerText"></div>
     
-    <div class="bannerText"></div>
-            <p  class="bannerTitle">Shop Computer</p>
-            <p class="bannerTitle">Accessories Online</p>
-            <p class="bannerTitle">With Us.</p>
             <div class="bannerButton">
                 <div class="button1">
                     <!-- sliding to  button -->
-                    <a href="#NewProductinStore" style="color: white;">See Our Products</a>
+                    <a href="#homepage.html" style="color: white;">See Our Products</a>
                 </div>
-                <div class="button2">Order History</div>
             </div>
         </div>
-    </div>
-    <div class="pbannerText">
+    <!-- <div class="pbannerText">
         <p>
             Shop Computer Accessories Online With Us.
           </p>
           <div class="bannerButton">
             <div class="button1">
-              <a href="Index.html" style="color: white;">See Our Products</a>
+              <a href="homepage.html" style="color: white;">See Our Products</a>
             </div>
             <div class="button2">
               Order History
             </div>
           </div>
-        </div>
-    </div>
-    </div>
+        </div> -->
+    
     <!-- Main content section -->
-    <div class="searchContainer">
+    <section>
         <!-- Product category section -->
         <div class="category" id="NewProductinStore">
             <p class="category-header">Product Category</p>
             <div class="categoryBox">
-                    <div class="categoryItem" id="audio" onclick="window.location.href = &#39;./Audios.html&#39;">
-                        <div>
-                            <img src="./images/earphone.png" alt="Audio" />
-                        <div class="cate-img">
-                           
-		  </div>
-                        <p>Audio</p>
-                    </div>
+                <div class="categoryItem" id="audio" onclick="window.location.href = &#39;./Audios.html&#39;">
+                  <div class="cate-img">
+                    <img alt="" src="./images/earphone.png">
+                  </div>
+                  <p>
+                    Audio
+                  </p>
+                
+                
                 </div>
+           
            
                     <div class="categoryItem" id="Chargers" onclick="window.location.href = &#39;./Charger.html&#39;">
                         <div class="cate-img">
@@ -127,7 +143,7 @@
                         <div class="np-img" onclick="window.location.href = &#39;./ProductDetail.html&#39;">
                             <img src="./images/wireless earphone.png" alt="" />
                         </div>
-                        <p>Air pods iPhone Wire less Blue tooth Headphones</p>
+                        <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
                         <div class="np-price">
                             <p>$ 49.99</p>
                             <a>
@@ -174,7 +190,6 @@
                 <a href="./homepage.html">More Products</a>
             </div>
         </div>
-
         <!-- Today's deals section -->
         <div class="newProduct">
             <div class="np-header">
@@ -241,7 +256,7 @@
             </div>
         </div>
     </div>
-
+</section>
     <!-- Footer section -->
     <footer>
         <div class="footerInfo">

@@ -1,119 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <!-- Meta tags and title -->
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>today's deal</title>
-  </head>
-  <body>
-    <header>
-      <img src="./images/logo.png" alt="logo" />
-      <div>
-        <div>
-          <span>today's deal</span>
-          <img src="./images/search-normal.png" alt="search-normal" />
-        </div>
-      </div>
-      <img src="./images/shopcar.png" alt="shopcar" />
+    <title>Todaysdeal</title>
+    <link rel="stylesheet" href="./Audios_files/style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header2">
+        <!-- Logo link to homepage -->
+            <img src="./images/logo.png" alt="logo" class="logo" onclick="window.location.href = &#39;./homepage.html&#39;">
+            
+            <div class="search">
+        <!-- Search link -->
+        
+            <div class="searchInput" onclick="window.location.href = &#39;./searchfor.html&#39;">
+                    <span>today's deal</span>
+                    <img src="./images/search-normal.png" alt="search-normal" class="search-normal" />
+                </div>
+            </div>
+        
+            <img src="./images/shopcar.png" alt="shopcar" class="shopcar" onclick="window.location.href=&#39;./ShoppingCart.html&#39;">
+        
     </header>
-    <div>
-      <div>Home > today's deal</div>
-      <div>
-        <p>today's deal</p>
-        <p>Showing all 77 Products</p>
+
+    <!-- Main content section -->
+    <div class="searchContainer">
+        <!-- Breadcrumb navigation -->
+        <div class="bread" onclick="window.location.href = &#39;./homepage.html&#39;">Home &gt; today's deal</div>
+        <div class="searchTitle">
+            <p class="title">today's deal</p>
+            <p>Showing all 77 Products</p>
+        </div>
+        
+        <!-- Product list -->
+        <div class="np-box2">
+            <!-- Product item -->
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/wireless earphone.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb" onclick="window.location.href = &#39;./ProductDetail.html&#39;">Add to Cart</div>
+                </div>
+            </div>
+            <!-- Repeat product items as needed -->
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/cable1.png" alt="" />
+                </div>
+                <p class="np-msg">ORICO 4 Port Car Charger - Black (MPU-4S)</p>
+                <div class="np-price">
+                    <p class="np-discount">
+                        <span class="np-s1">$ 29.99</span>
+                        <span class="np-s2"> 59.99 </span>
+                    </p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/earphone2.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/earphone3.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/wireless earphone.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb" onclick="window.location.href = &#39;./ProductDetail.html&#39;">Add to Cart</div>
+                </div>
+            </div>
+            <!-- Repeat product items as needed -->
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/cable1.png" alt="" />
+                </div>
+                <p class="np-msg">ORICO 4 Port Car Charger - Black (MPU-4S)</p>
+                <div class="np-price">
+                    <p class="np-discount">
+                        <span class="np-s1">$ 29.99</span>
+                        <span class="np-s2"> 59.99 </span>
+                    </p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/earphone2.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/earphone3.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/wireless earphone.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb" onclick="window.location.href = &#39;./ProductDetail.html&#39;">Add to Cart</div>
+                </div>
+            </div>
+            <!-- Repeat product items as needed -->
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/cable1.png" alt="" />
+                </div>
+                <p class="np-msg">ORICO 4 Port Car Charger - Black (MPU-4S)</p>
+                <div class="np-price">
+                    <p class="np-discount">
+                        <span class="np-s1">$ 29.99</span>
+                        <span class="np-s2"> 59.99 </span>
+                    </p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/earphone2.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+            <div class="np-item">
+                <div class="np-img">
+                    <img src="./images/earphone3.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb">Add to Cart</div>
+                </div>
+            </div>
+        </div>
+                    <!-- <div class="np-item"></div>
+                    <div class="np-img"></div>
+                    <img src="./images/wireless earphone.png" alt="" />
+                </div>
+                <p class="np-msg">Air pods iPhone Wire less Blue tooth Headphones</p>
+                <div class="np-price">
+                    <p>$ 49.99</p>
+                    <div class="but-nb" >Add to Cart</div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Repeat product list section if needed -->
+       
+        <!-- Repeat product list section if needed -->
+        <div class="pageBread">
+            <div class="pageBox">
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">...</div>
+                <div class="number">274</div>
+                <div class="number n2">
+                    <img src="./images/right Vector.png" alt="" />
+                </div>
+            </div>
+        </div>
       </div>
-      <div>
-        <div>
-          <div>
-            <img src="./images/wireless earphone.png" alt="" />
-          </div>
-          <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-          <div>
-            <p>$ 49.99</p>
-            <div>Add to Cart</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="./images/cable1.png" alt="" />
-          </div>
-          <p>ORICO 4 Port Car Charger - Black (MPU-4S)</p>
-          <div>
-            <p>
-              <span> $ 29.99 </span>
-              <span> 59.99 </span>
-            </p>
-            <div>Add to Cart</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="./images/earphone2.png" alt="" />
-          </div>
-          <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-          <div>
-            <p>$ 49.99</p>
-            <div>Add to Cart</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="./images/earphone3.png" alt="" />
-          </div>
-          <p>Air pods iPhone Wire less Blue tooth Headphones</p>
-          <div>
-            <p>$ 49.99</p>
-            <div>Add to Cart</div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <div>1</div>
-          <div>2</div>
-          <div>...</div>
-          <div>274</div>
-          <div>
-            <img src="./images/right right vector.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Footer section -->
     <footer>
-      <div>
-        <div>
-          <img src="./images/logo.png" alt="" />
-          <p>
-            TimeWeb computer is a computer store located in south Melbourne,
-            selling computer accessories. Hope you enjoy experience.
-          </p>
+        <!-- Footer information -->
+        <div class="footerInfo">
+            <div class="left-1">
+                <img src="./images/logo.png" alt="" />
+                <p>
+                    TimeWeb computer is a computer store located in south Melbourne,
+                    selling computer accessories. Hope you enjoy experience.
+                </p>
+            </div>
+            <div class="right-1">
+                <div class="right-1-item">
+                    <p class="line-1">Contact us</p>
+                    <p>Phone Num: 04537 378 344</p>
+                    <p>Email: duiehdjkn@gmail.com</p>
+                    <p>(777) 888888888</p>
+                </div>
+                <div class="right-1-item">
+                    <p  class="line-1">Location</p>
+                    <p>1 , Coventry Place, west South</p>
+                    <p>Melbourne Victoria 3205</p>
+                </div>
+            </div>
         </div>
-        <div>
-          <div>
-            <p>Contact us</p>
-            <p>Phone Num: 04537 378 344</p>
-            <p>Email: duiehdjkn@gmail.com</p>
-            <p>(777) 888888888</p>
-          </div>
-          <div>
-            <p>Location</p>
-            <p>1 , Coventry Place, west South</p>
-            <p>Melbourne Victoria 3205</p>
-          </div>
-        </div>
-      </div>
     </footer>
-    <div>
-      <div>
-        <p>
-          COPYRIGHT © LENNY CO., LTD. ALL RIGHTS RESERVED.
-        </p>
-        <div>
-          <span> Terms of use </span>
-          <span> Privacy Policy </span>
+    
+    <!-- Copyright and terms -->
+    <div class="footer-copy">
+        <div class="copy">
+            <p class="copy-left">COPYRIGHT © LENNY CO., LTD. ALL RIGHTS RESERVED.</p>
+            <div  class="copy-r">
+                <span  class="copy-s1"> Terms of use </span>
+                <span> Privacy Policy </span>
+            </div>
         </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
