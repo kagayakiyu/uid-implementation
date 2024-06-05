@@ -37,7 +37,7 @@ shopcar.addEventListener('click',()=>{
 var left_but = document.querySelector('.left_but');
 var right_but = document.querySelector('.right_but');
 var big_box = document.querySelector('.big_box');
-//滑动函数
+//slide function
 function anime(obj, target, callback) {
     clearInterval(obj.timer)
     obj.timer = setInterval(function() {
@@ -56,7 +56,7 @@ function anime(obj, target, callback) {
 big_box.addEventListener('mouseover', function() {
     left_but.style.display = 'block';
     right_but.style.display = 'block'
-    //关闭自动播放
+    //close autoplay
     clearInterval(timer);
     timer = null;
 
@@ -64,25 +64,25 @@ big_box.addEventListener('mouseover', function() {
 big_box.addEventListener('mouseout', function() {
     left_but.style.display = 'none';
     right_but.style.display = 'none'
-    //开启自动播放
+    //autoplay
     timer = setInterval(function() {
         right_but.click();
     }, 4000)
 })
 var ol = document.querySelector('.promo_nav');
 var slide_img = document.querySelector('.slide_img');
-//创建与图片个数一样的li
+//set li
 for (var i = 0; i < slide_img.children.length; i++) {
     var li = document.createElement('li');
     li.setAttribute('index', i);
     ol.appendChild(li);
-    //li 滑动变色事件
+    //change color
     li.addEventListener('mousemove', function(e) {
         for (var j = 0; j < ol.children.length; j++) {
             ol.children[j].className = '';
         }
         e.target.className = 'selected';
-        //滑动移动图片
+        //slide pic
         var big_boxWidth = big_box.offsetWidth;
         count = this.getAttribute('index');
         circle = this.getAttribute('index');
@@ -93,8 +93,8 @@ for (var i = 0; i < slide_img.children.length; i++) {
     ol.style.width = 14 * ol.children.length + 'px';
 }
 ol.children[0].className = 'selected';
-//左右按钮点击事件
-//右按钮
+//click event
+//right button
 var count = 0;
 var circle = 0;
 var flag = true;
@@ -115,11 +115,11 @@ right_but.addEventListener('click', function() {
         if (circle == ol.children.length) {
             circle = 0;
         }
-        //改变圆函数
+        //change circle 
         circleChange();
     }
 })
-//左按钮
+//left button
 left_but.addEventListener('click', function() {
 
     if (flag) {
@@ -141,7 +141,7 @@ left_but.addEventListener('click', function() {
         circleChange();
     }
 })
-//改变圆
+// change the circle
 function circleChange() {
     for (var i = 0; i < ol.children.length; i++) {
         ol.children[i].className = '';
@@ -149,6 +149,6 @@ function circleChange() {
     ol.children[circle].className = 'selected';
 }
 var timer = setInterval(function() {
-    //自动调用事件
+    //automaticlly call
     right_but.click();
 }, 4000)
