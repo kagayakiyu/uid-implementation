@@ -37,7 +37,7 @@ shopcar.addEventListener('click',()=>{
 var left_but = document.querySelector('.left_but');
 var right_but = document.querySelector('.right_but');
 var big_box = document.querySelector('.big_box');
-//slide function
+//silde
 function anime(obj, target, callback) {
     clearInterval(obj.timer)
     obj.timer = setInterval(function() {
