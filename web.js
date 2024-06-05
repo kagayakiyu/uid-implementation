@@ -67,7 +67,7 @@ big_box.addEventListener('mouseout', function() {
     //开启自动播放
     timer = setInterval(function() {
         right_but.click();
-    }, 5000)
+    }, 4000)
 })
 var ol = document.querySelector('.promo_nav');
 var slide_img = document.querySelector('.slide_img');
@@ -151,4 +151,4 @@ function circleChange() {
 var timer = setInterval(function() {
     //自动调用事件
     right_but.click();
-}, 5000)
+}, 4000)
