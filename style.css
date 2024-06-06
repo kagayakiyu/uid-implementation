@@ -285,7 +285,7 @@ section {
   width: 1200px;
   margin: 0 auto;
 }
-.newProduct .np-header {
+.np-header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 53px;
@@ -1083,7 +1083,7 @@ footer .footerInfo .right-1 p {
   }
   .newProduct {
     width: 100vw;
-    padding: 0 10px 50px 0;
+    padding: 0 10px 50px 10px;
     box-sizing: border-box;
     margin-top: 20px;
   }
