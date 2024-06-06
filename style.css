@@ -44,49 +44,9 @@ header .search .searchInput .search-normal {
 }
 header .search .searchInput span {
   color: #838d8f;
+  font-family: 'Inria Sans', sans-serif;
 }
 header .shopcar {
-  width: 36px;
-  height: 27px;
-}
-
-.header2 {
-  width: 100vw;
-  height: 88px;
-  box-sizing: border-box;
-  padding: 24px 163px 24px 120px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-.header2 .logo {
-  height: 40px;
-}
-.header2 .search {
-  width: 923px;
-  height: 44px;
-  background-color: #f7f7f7;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-}
-.header2 .search .searchInput {
-  width: 863px;
-  height: 20px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.header2 .search .searchInput .search-normal {
-  width: 20px;
-  height: 20px;
-}
-.header2 .search .searchInput span {
-  color: #838d8f;
-}
-.header2 .shopcar {
   width: 36px;
   height: 27px;
 }
@@ -213,6 +173,7 @@ a img {
 .banner .bannerText .bannerButton .button1 {
   margin: 20px 0;
   background-color: #065cac;
+  font-family: 'Inria Sans', sans-serif;
 }
 .banner .bannerText .bannerButton .button2 {
   color: #065cac;
@@ -279,6 +240,7 @@ section {
 .category .categoryBox .categoryItem p {
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
 }
 
 .newProduct {
@@ -306,10 +268,7 @@ section {
   font-weight: bold;
   color: #065cac;
 }
-.newProduct .np-header .np-button:active {
-  color: #ffffff !important;
-  background-color: #033667;
-}
+
 .newProduct .np-box {
   width: 100%;
   display: grid;
@@ -330,6 +289,7 @@ section {
 .newProduct .np-box .np-msg {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .newProduct .np-box .np-price {
   display: flex;
@@ -385,7 +345,7 @@ section {
 }
 .newProduct .np-box .np-price .np-discount .np-s1 {
   color: #fc0b0b;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   font-family: 'Inria Sans', sans-serif;
 }
@@ -452,6 +412,7 @@ footer .footerInfo .right-1 p {
 .searchContainer {
   width: 1200px;
   margin: 60px auto 0;
+  font-family: 'Inria Sans', sans-serif;
 }
 .searchContainer .bread {
   color: #065cac;
@@ -459,6 +420,7 @@ footer .footerInfo .right-1 p {
 }
 .searchContainer .searchTitle {
   margin-bottom: 30px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .searchContainer .searchTitle .title {
   font-size: 28px;
@@ -493,6 +455,7 @@ footer .footerInfo .right-1 p {
 .np-box2 .np-msg {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .np-box2 .np-price {
   display: flex;
@@ -558,6 +521,7 @@ footer .footerInfo .right-1 p {
 .shopContent .shopTop .productMsg .pTitle {
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
 }
 .shopContent .shopTop .productMsg .sold {
   font-size: 12px;
@@ -572,11 +536,13 @@ footer .footerInfo .right-1 p {
 }
 .shopContent .shopTop .productMsg .pmsg {
   font-size: 16px;
+  font-family: 'Inria Sans', sans-serif;
   color: #838d8f;
   margin-bottom: 60px;
 }
 .shopContent .shopTop .productMsg .pmsg span {
   color: #065cac;
+  font-family: 'Inria Sans', sans-serif;
 }
 .shopContent .shopTop .productMsg .pButton {
   width: 327px;
@@ -591,6 +557,7 @@ footer .footerInfo .right-1 p {
   color: white;
   font-weight: bold;
   margin-bottom: 18px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .shopContent .shopTop .productMsg .pButton .item:active {
   color: #ffffff !important;
@@ -605,14 +572,17 @@ footer .footerInfo .right-1 p {
   background-color: white;
   border: 1px solid #065cac;
   color: #065cac;
+  font-family: 'Inria Sans', sans-serif;
 }
 .shopContent .p1 {
   color: #065cac;
+  font-family: 'Inria Sans', sans-serif;
   font-weight: bold;
   margin-bottom: 15px;
 }
 .shopContent .shopInfo .p2 {
   font-size: 24px;
+  font-family: 'Inria Sans', sans-serif;
   font-weight: bold;
   margin-bottom: 15px;
   color: black;
@@ -620,6 +590,7 @@ footer .footerInfo .right-1 p {
 .shopContent .shopInfo p {
   color: #838d8f;
   margin-bottom: 5px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .shopContent .shopInfo .shopTwoImg {
   margin: 60px 0 100px;
@@ -634,14 +605,16 @@ footer .footerInfo .right-1 p {
 .shoppingTitle {
   margin-bottom: 40px;
 }
-.shoppingTitle .sp1 {
+.shoppingTitle .shoppingcart1 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
+  font-family: 'Inria Sans', sans-serif;
 }
-.shoppingTitle .sp2 {
+.shoppingTitle .shoppingcart2 {
   font-size: 16px;
   color: #838d8f;
+  font-family: 'Inria Sans', sans-serif;
 }
 
 .cartBox {
@@ -737,6 +710,7 @@ footer .footerInfo .right-1 p {
   text-align: center;
   border-radius: 8px;
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
   
 }
 .cartBox .rightBox .Checkout:active {
@@ -809,15 +783,18 @@ footer .footerInfo .right-1 p {
   gap: 20px;
   align-items: center;
   text-align: center;
+  font-family: 'Inria Sans', sans-serif;
 }
 .successful .pbold {
   font-size: 28px;
   font-weight: bold;
   color: black;
+  font-family: 'Inria Sans', sans-serif;
 }
 .successful P {
   color: #818b9c;
   font-size: 18px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .successful .sButton {
   display: flex;
@@ -831,6 +808,7 @@ footer .footerInfo .right-1 p {
   font-weight: bold;
   border-radius: 8px;
   background-color: #065cac;
+  font-family: 'Inria Sans', sans-serif;
 }
 .successful .sButton .item:active {
   color: #ffffff !important;
@@ -852,6 +830,7 @@ footer .footerInfo .right-1 p {
 
 
 /*--------------------------------------------------------------*/
+/* style for Responsive design webpage */
 
 @media screen and (max-width: 391px) {
   header {
@@ -1050,10 +1029,12 @@ footer .footerInfo .right-1 p {
   .pbannerText .bannerButton .button1 {
     margin: 20px 0;
     background-color: #065cac;
+    font-family: 'Inria Sans', sans-serif;
   }
   .pbannerText .bannerButton .button2 {
     color: #065cac;
     border: 1px solid #065cac;
+    font-family: 'Inria Sans', sans-serif;
   }
   .category {
     width: 100vw;
@@ -1062,7 +1043,7 @@ footer .footerInfo .right-1 p {
   }
   .category .category-header {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
   }
   .category .categoryBox {
     display: grid;
@@ -1077,6 +1058,7 @@ footer .footerInfo .right-1 p {
   }
   .category .categoryBox .categoryItem p {
     font-size: 14px;
+    font-family: 'Inria Sans', sans-serif;
   }
   .category img {
     width: 150px;
@@ -1125,7 +1107,7 @@ footer .footerInfo .right-1 p {
     align-items: center;
   }
   .newProduct .np-box .np-item .np-price .np-discount .np-s1, .newProduct .np-box .np-item .np-price .np-discount .np-s2 {
-    font-size: 10px;
+    font-size: 14px;
   }
   .newProduct .np-box .pnone {
     display: none;
@@ -1511,10 +1493,12 @@ footer .footerInfo .right-1 p {
   .pbannerText .bannerButton .button1 {
     margin: 20px 0;
     background-color: #065cac;
+    font-family: 'Inria Sans', sans-serif;
   }
   .pbannerText .bannerButton .button2 {
     color: #065cac;
     border: 1px solid #065cac;
+    font-family: 'Inria Sans', sans-serif;
   }
   .category {
     width: 100vw;
@@ -1523,7 +1507,7 @@ footer .footerInfo .right-1 p {
   }
   .category .category-header {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
   }
   .category .categoryBox {
     display: grid;
@@ -1538,6 +1522,7 @@ footer .footerInfo .right-1 p {
   }
   .category .categoryBox .categoryItem p {
     font-size: 14px;
+    font-family: 'Inria Sans', sans-serif;
   }
   .category img {
     width: 150px;
@@ -1587,7 +1572,7 @@ footer .footerInfo .right-1 p {
     align-items: center;
   }
   .newProduct .np-box .np-item .np-price .np-discount .np-s1, .newProduct .np-box .np-item .np-price .np-discount .np-s2 {
-    font-size: 10px;
+    font-size: 14px;
   }
   
   .newProduct .noneMore {
@@ -1690,9 +1675,7 @@ footer .footerInfo .right-1 p {
   .searchContainer .np-box2 .np-item .np-price .np-discount .np-s1, .searchContainer .np-box2 .np-item .np-price .np-discount .np-s2 {
     font-size: 12px;
   }
-  /*.shopContent .shopTop {*/
-  /*  display: block;*/
-  /*}*/
+ 
   .shopContent .shopTop .productImg img {
     width: 485px;
   }
@@ -1702,13 +1685,7 @@ footer .footerInfo .right-1 p {
   .shopContent .shopTop .productMsg .pmsg {
     font-size: 14px;
   }
-  /*.shopContent .shopTop .productMsg .pButton {*/
-  /*  margin: 0 auto;*/
-  /*}*/
-  /*.shopContent .shopInfo {*/
-  /*  display: flex;*/
-  /*  flex-direction: column-reverse;*/
-  /*}*/
+ 
   .shopContent .shopInfo .shopTwoImg {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
