@@ -58,7 +58,7 @@ header .shopcar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 .header2 .logo {
@@ -98,7 +98,7 @@ header .shopcar {
   position: relative;
   width: 100vw;
   background-position: right;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); 
 }
 .banner .big_box  {
   width: 100vw;
@@ -816,7 +816,7 @@ footer .footerInfo .right-1 p {
 }
 .successful .sButton .Check a {
   color: black;
-}
+}/*# sourceMappingURL=style.css.map */
 @charset "UTF-8";
 
 
@@ -824,7 +824,7 @@ footer .footerInfo .right-1 p {
 
 /*--------------------------------------------------------------*/
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
   header {
     width: 100vw;
     height: 88px;
@@ -871,7 +871,7 @@ footer .footerInfo .right-1 p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
     margin-bottom: 20px;
   }
   .header2 .logo {
@@ -1272,14 +1272,14 @@ footer .footerInfo .right-1 p {
     margin: 10px auto 0;
     width: 80%;
   }
-}
+}/*# sourceMappingURL=media.css.map */
 
 
 
 
 
 
-@media screen and (min-width: 391px) and (max-width: 912px) {
+@media screen and (min-width: 392px) and (max-width: 912px) {
   header {
     width: 100vw;
     height: 88px;
@@ -1328,7 +1328,7 @@ footer .footerInfo .right-1 p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
     margin-bottom: 20px;
   }
   .header2 .logo {
@@ -1662,7 +1662,9 @@ footer .footerInfo .right-1 p {
   .searchContainer .np-box2 .np-item .np-price .np-discount .np-s1, .searchContainer .np-box2 .np-item .np-price .np-discount .np-s2 {
     font-size: 12px;
   }
-  
+  /*.shopContent .shopTop {*/
+  /*  display: block;*/
+  /*}*/
   .shopContent .shopTop .productImg img {
     width: 485px;
   }
@@ -1672,7 +1674,13 @@ footer .footerInfo .right-1 p {
   .shopContent .shopTop .productMsg .pmsg {
     font-size: 14px;
   }
-  
+  /*.shopContent .shopTop .productMsg .pButton {*/
+  /*  margin: 0 auto;*/
+  /*}*/
+  /*.shopContent .shopInfo {*/
+  /*  display: flex;*/
+  /*  flex-direction: column-reverse;*/
+  /*}*/
   .shopContent .shopInfo .shopTwoImg {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
