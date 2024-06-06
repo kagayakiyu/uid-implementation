@@ -184,6 +184,10 @@ a img {
 
 
 
+.bannerTitle {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: bold; 
+}
 
 .banner .bannerText {
   z-index: 1;
@@ -243,7 +247,8 @@ section {
   text-align: center;
   padding: 80px 0 40px;
   font-size: 38px;
-  font-weight: bold;
+  font-weight: bold; 
+  font-family: 'M PLUS 1p', sans-serif;
 }
 .category .categoryBox {
   width: 1200px;
@@ -262,7 +267,7 @@ section {
   border: 1px solid #f8f8f8;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.1), -10px 0px 15px rgba(0, 0, 0, 0.1); /* 设置左右两个阴影效果 */
+  box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.1), -10px 0px 15px rgba(0, 0, 0, 0.1); 
 }
 .category .categoryBox .categoryItem .cate-img {
   width: 233px;
@@ -284,6 +289,7 @@ section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 53px;
+  font-family: 'M PLUS 1p', sans-serif; 
 }
 .newProduct .np-header p {
   font-size: 38px;
@@ -332,9 +338,11 @@ section {
 .newProduct .np-box .np-price p {
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
 }
 .newProduct .np-box .np-price div {
   border-radius: 8px;
+  font-family: 'Inria Sans', sans-serif;
   width: 87px;
   height: 25px;
   line-height: 25px;
@@ -449,6 +457,7 @@ footer .footerInfo .right-1 p {
   font-size: 28px;
   color: black;
   margin-bottom: 5px;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 .searchContainer .searchTitle p {
   font-size: 16px;
@@ -816,7 +825,7 @@ footer .footerInfo .right-1 p {
 }
 .successful .sButton .Check a {
   color: black;
-}/*# sourceMappingURL=style.css.map */
+}
 @charset "UTF-8";
 
 
@@ -1272,14 +1281,14 @@ footer .footerInfo .right-1 p {
     margin: 10px auto 0;
     width: 80%;
   }
-}/*# sourceMappingURL=media.css.map */
+}
 
 
 
 
 
 
-@media screen and (min-width: 392px) and (max-width: 912px) {
+@media screen and (min-width: 392px) and (max-width: 913px) {
   header {
     width: 100vw;
     height: 88px;
