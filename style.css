@@ -92,7 +92,7 @@ header .shopcar {
 }
 
 .banner {
-  /*background-image: url(./images/banner.png);*/
+
   background-repeat: no-repeat;
   height: 620px;
   position: relative;
@@ -377,15 +377,18 @@ section {
 
 .newProduct .np-box .np-price .np-discount {
   color: #a1a0a0;
+  font-family: 'Inria Sans', sans-serif;
 }
 .newProduct .np-box .np-price .np-discount .np-s1 {
   color: #fc0b0b;
   font-size: 20px;
   text-decoration: none;
+  font-family: 'Inria Sans', sans-serif;
 }
 .newProduct .np-box .np-price .np-discount .np-s2 {
   text-decoration: line-through;
   font-size: 14px;
+  font-family: 'Inria Sans', sans-serif;
 }
 
 footer {
@@ -494,6 +497,7 @@ footer .footerInfo .right-1 p {
 .np-box2 .np-price p {
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
 }
 .np-box2 .np-price div {
   border-radius: 8px;
@@ -505,18 +509,22 @@ footer .footerInfo .right-1 p {
   font-size: 12px;
   font-weight: bold;
   color: #065cac;
+  font-family: 'Inria Sans', sans-serif;
 }
 .np-box2 .np-price .np-discount {
   color: #a1a0a0;
+  font-family: 'Inria Sans', sans-serif;
 }
 .np-box2 .np-price .np-discount .np-s1 {
   color: #fc0b0b;
   font-size: 20px;
   text-decoration: none;
+  font-family: 'Inria Sans', sans-serif;
 }
 .np-box2 .np-price .np-discount .np-s2 {
   text-decoration: line-through;
   font-size: 14px;
+  font-family: 'Inria Sans', sans-serif;
 }
 
 .pageBread {
@@ -556,6 +564,7 @@ footer .footerInfo .right-1 p {
   color: #065cac;
   font-size: 18px;
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
 }
 .shopContent .shopTop .productMsg .pmsg {
   font-size: 16px;
@@ -681,33 +690,39 @@ footer .footerInfo .right-1 p {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .cartBox .rightBox .rPrice {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .cartBox .rightBox .rPrice .ss2 {
   font-weight: bold;
+  font-family: 'Inria Sans', sans-serif;
 }
 .cartBox .rightBox .totalPrice {
   padding: 20px 0;
   border-top: 1px solid #e4e9ee;
   border-bottom: 1px solid #e4e9ee;
   margin-bottom: 20px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .cartBox .rightBox .totalPrice .item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
   color: #838d8f;
+  font-family: 'Inria Sans', sans-serif;
 }
 .cartBox .rightBox .totalPrice2 {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
   margin-bottom: 30px;
+  font-family: 'Inria Sans', sans-serif;
 }
 .cartBox .rightBox .Checkout {
   width: 100%;
@@ -718,6 +733,7 @@ footer .footerInfo .right-1 p {
   text-align: center;
   border-radius: 8px;
   font-weight: bold;
+  
 }
 .cartBox .rightBox .Checkout:active {
   color: #ffffff !important;
@@ -880,7 +896,7 @@ footer .footerInfo .right-1 p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px;
   }
   .header2 .logo {
@@ -913,7 +929,6 @@ footer .footerInfo .right-1 p {
     height: 27px;
   }
   .banner {
-    /*background-image: url(./images/edited banner.png);*/
     height: 228px;
   }
 
@@ -1288,7 +1303,7 @@ footer .footerInfo .right-1 p {
 
 
 
-@media screen and (min-width: 392px) and (max-width: 913px) {
+@media screen and (min-width: 391px) and (max-width: 913px) {
   header {
     width: 100vw;
     height: 88px;
